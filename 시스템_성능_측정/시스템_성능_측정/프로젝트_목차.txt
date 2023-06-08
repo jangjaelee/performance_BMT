@@ -1,0 +1,48 @@
+1. 시스템 성능 분석의 필요성
+   - 개요 : 하나의 완성된 시스템이라 할지라도 그 시스템의 구성원들에게 어떤 불확실성이 잠재해 있을 가능성이 있고, 
+전체 시스템의 운용 측면에서는 더욱더 심각한 불확실성이 내재해 있을 수 있다. 따라서 처음 의도대로 시스템이
+디자인되어 구축이 되었다 할 지라도 구축 후에 전체 시스템에 대한 분석이 반드시 필요하다.
+
+   - 비용 절감, 확장성 고려, 문제해결
+   - 시스템 분석의 관점 (Perspectives)
+
+2. 리눅스 시스템을 위한 Workload 및 Monitoring
+    1) 커널구조 (
+    2)  
+    1) CPU
+    2) MEMORY
+    3) DISK I/O
+    4) NETWORK I/O
+    5) PROCESS
+    6) /proc file system
+
+3. 윈도우 시스템을 위한 Workload 및 Monitoring
+    1) CPU
+    2) MEMORY
+    3) DISK I/O
+    4) NETWORK I/O
+    5) PROCESS
+
+4. Next mission
+
+5. 마무리
+    1) 참고문헌
+         - Red Hat Enterprise Linux 6 Performance Tuning Guide
+         - GIT, "System Performance Tuning(I/O)"
+         - Brendan Gregg, "Linux Performance Analysis and Tools"
+         - Brendan Gregg, "http://www.brendangregg.com/USEmethod/use-linux.html"
+
+
+/proc File System
+/proc 파일 시스템은 리눅스 커널에 대한 방대한 정보를 제공해주는 파일 시스템이다. 각 프로세스에 대한 정보는 물론, CPU, Memory, Disk, Network, File system, Partition, Interrupt 등의 대부분의 시스템에 대한 전반적인 정보를 /proc 파일 시스템에서 확인할 수 있다.
+또한, 우리가 흔히 시스템 모니터링을 위해 사용하는 top, iostat, vmstat, mpstat, sar, 
+
+
+
+시스템 부하 테스트와 시스템 분석은
+
+스트레스 테스팅 : 어느 정도의 부하를 가할 때 시스템이 실패하는지를 알아보기 위한 목적
+부하 테스팅 : 시스템의 처리 능력을 확인하기 위한 목적이 있기 때문에 단위 시간 동안의 처리 량을 파악하기 위한 목적
+ 
+cpu, memory, i/o, disk stress tools - http://people.seas.harvard.edu/~apw/stress/
+

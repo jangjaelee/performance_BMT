@@ -1,0 +1,3 @@
+sampler_label,aggregate_report_count,average,aggregate_report_min,aggregate_report_max,aggregate_report_stddev,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,average_bytes
+TOMCAT_JSP_HTTP_Request,3340696,52,9,4483,31.36936080835655,0.0,928.0236991207279,367.11093614532257,405.0775847308465
+TOTAL,3340696,52,9,4483,31.36936080835655,0.0,928.0236991207279,367.11093614532257,405.0775847308465

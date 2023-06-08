@@ -1,0 +1,3 @@
+sampler_label,aggregate_report_count,average,aggregate_report_min,aggregate_report_max,aggregate_report_stddev,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,average_bytes
+IIS_ASP_HTTP_Request,5741,31188,2046,143879,29846.252307826107,0.06828078731928236,1.587062441687688,0.5482591075192647,353.7462114614179
+TOTAL,5741,31188,2046,143879,29846.252307826107,0.06828078731928236,1.587062441687688,0.5482591075192647,353.7462114614179
